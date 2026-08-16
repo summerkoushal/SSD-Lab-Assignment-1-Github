@@ -9,8 +9,13 @@ void analyticsWidget() {
     cout << "Integrate analytics widgets with mock data" << endl;
 }
 
+void ApiFetch() {
+    cout << "Fetch real-time dashboard data from API" << endl;
+}
+
 int main() {
     sidebar();
     analyticsWidget();
+    ApiFetch();
     return 0;
 }
