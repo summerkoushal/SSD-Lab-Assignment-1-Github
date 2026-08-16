@@ -9,8 +9,13 @@ void login() {
     cout << "Implement account settings update (email/password)" << endl;
 }
 
+void theme() {
+    cout << "Add user preferences (theme, notifications)" << endl;
+}
+
 int main() {
     navigationTabs();
     login();
+    theme();
     return 0;
 }
