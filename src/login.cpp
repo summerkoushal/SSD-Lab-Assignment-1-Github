@@ -22,4 +22,5 @@ int main() {
     validations();
     ErrorHandling();
     ApiCalling();
+    return 0;
 }
