@@ -9,3 +9,8 @@
 - this .gitignore will keep a track of all the files / folders which we don't want to track
 - we have created a legacy folder which contain passwords of users
 - adding that folder name to .gitignore will help to dont push our legacy files to github
+
+### Performing initial commit
+- first we need to track our files, for that we can use `git add <filename>` or `git add .`
+- (optional) to check the status of our repository, we can use command `git status` or `git status -s` as shorthand
+- to commit our changes, use command `git commit -m "commit message"`
