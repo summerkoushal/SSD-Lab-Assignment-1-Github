@@ -13,9 +13,14 @@ void ApiFetch() {
     cout << "Fetch real-time dashboard data from API" << endl;
 }
 
+void ErrorHandling() {
+    cout << "Add loading states and error handling for dashboard" << endl;
+}
+
 int main() {
     sidebar();
     analyticsWidget();
     ApiFetch();
+    ErrorHandling();
     return 0;
 }
