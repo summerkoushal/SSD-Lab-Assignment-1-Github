@@ -30,8 +30,5 @@ int main() {
     std::cout << "The sum of " << num1 << " and " << num2 << " is: " << result << std::endl;
     std::cout << "The multiplication of " << num1 << " and " << num2 << " is: " << mulResult << std::endl;
     std::cout << "Program finished successfully." << std::endl;
-
-    working...
-
     return 0;
 }
