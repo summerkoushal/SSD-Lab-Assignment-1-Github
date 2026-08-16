@@ -13,8 +13,13 @@ void ErrorHandling() {
     cout << "implemented error handling" << endl;
 }
 
+void ApiCalling() {
+    cout << "API is called for data fetching" << endl;
+}
+
 int main() {
     UI();
     validations();
     ErrorHandling();
+    ApiCalling();
 }
