@@ -14,6 +14,10 @@ int addNumbers(int a, int b) {
     return a + b;
 }
 
+int mulNumbers(int a, int b) {
+    return a * b;
+}
+
 int main() {
     printWelcomeMessage();
     greetUser();
@@ -21,8 +25,10 @@ int main() {
     int num1 = 5;
     int num2 = 10;
     int result = addNumbers(num1, num2);
+    int mulResult = mulNumbers(num1, num2);
 
     std::cout << "The sum of " << num1 << " and " << num2 << " is: " << result << std::endl;
+    std::cout << "The multiplication of " << num1 << " and " << num2 << " is: " << mulResult << std::endl;
     std::cout << "Program finished successfully." << std::endl;
 
     return 0;
