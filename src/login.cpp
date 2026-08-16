@@ -9,7 +9,12 @@ void validations() {
     cout << "implemented validations logic" << endl;
 }
 
+void ErrorHandling() {
+    cout << "implemented error handling" << endl;
+}
+
 int main() {
     UI();
     validations();
+    ErrorHandling();
 }
