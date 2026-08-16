@@ -22,5 +22,7 @@ int main() {
     analyticsWidget();
     ApiFetch();
     ErrorHandling();
+
+    working
     return 0;
 }
