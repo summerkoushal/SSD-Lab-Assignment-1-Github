@@ -14,3 +14,9 @@
 - first we need to track our files, for that we can use `git add <filename>` or `git add .`
 - (optional) to check the status of our repository, we can use command `git status` or `git status -s` as shorthand
 - to commit our changes, use command `git commit -m "commit message"`
+
+### Linking github remote
+- to push our repository to github repository, we need to add remote
+- a remote is basically a location, specified by URL to point our push location
+- to add a remote use command `git remote add <remoteName> <urlName>`
+- to show all the remote created, use command `git remote` or `git remote -v` for checking remote and their respective URL also
